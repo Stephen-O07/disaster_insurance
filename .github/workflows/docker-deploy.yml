@@ -3,7 +3,7 @@ name: Docker Build and Deploy
 on:
   push:
     branches:
-      - main   # runs when code is pushed to main branch
+      - main
 
 jobs:
   build:
