@@ -45,7 +45,7 @@ FEMA API  → PostgreSQL (Dockerized) → Power BI
 * Postgres + pgAdmin (Dockerized).
 * GitHub Actions workflow for Docker build/push.
 
-![Architecture Diagram]([ArchutectureDiagram.gif](https://github.com/Stephen-O07/disaster_insurance/blob/55ef0f7c46dfd369efe1ae530a244fedb6e25e63/ArchitectureDiagram.gif))
+![image alt](https://github.com/Stephen-O07/disaster_insurance/blob/55ef0f7c46dfd369efe1ae530a244fedb6e25e63/ArchitectureDiagram.gif)
 
 ---
 
