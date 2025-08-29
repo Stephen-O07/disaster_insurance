@@ -1,2 +1,5 @@
 project:
     name: disaster-insurance
+postgres:
+    port: 5444
+

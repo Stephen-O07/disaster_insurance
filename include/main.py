@@ -1,6 +1,6 @@
 from dotenv import load_dotenv
-from elt.db_connect import conn, cur, insert_query
-from elt.extract import extract_data
+from include.db_connect import conn, cur, insert_query
+from include.extract import extract_data
 
 load_dotenv()
  
@@ -25,8 +25,3 @@ def main():
 
    #print(insurance_data[0])
    #print(data[0])
-
-
-
-if __name__ == '__main__':
-    main()
