@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-
->>>>>>> f99e257e97f25e7429fd4de90f283f2ccfe7fe1c
 # *Disaster Insurance Analytics*
 
 
