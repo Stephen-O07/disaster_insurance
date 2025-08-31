@@ -1,8 +1,4 @@
-# *Disaster Insurance Analytics*
-
-
-
-## 1. **Project Title & Description**
+## 1. *Disaster Insurance Analytics*
 
 **Disaster Insurance Analytics – Disaster Response KPI Dashboard**
 An end-to-end ETL pipeline and analytics solution that ingests FEMA disaster data, loads it into PostgreSQL, and enables interactive dashboards (Power BI) for insurance claim insights.
