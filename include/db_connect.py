@@ -33,3 +33,4 @@ insert_query = """
     VALUES (%s, %s, %s, %s, %s)
     ON CONFLICT (disasterNumber, pwNumber) DO NOTHING;
 """
+
