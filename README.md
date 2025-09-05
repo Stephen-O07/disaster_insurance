@@ -95,37 +95,19 @@ API_URL=https://www.fema.gov/api/open/v2/PublicAssistanceFundedProjectsDetails
 HOST=postgres
 PORT=5432
 DATABASE=disaster_insurance
-USER=admin
-PASSWORD=admin
+USER=user_name
+PASSWORD=user_password
 ```
 
-### Build & Run with Docker Compose
+### Build & Run with Airflow
 
 ```bash
-docker compose up -d
+astro dev start
 ```
 
 ---
 
-## 8. **Running the Pipeline**
-
-1. Start Postgres & pgAdmin via Docker Compose.
-2. Run ETL:
-
-   ```bash
-   python main.py
-   ```
-
-   (or package Python into Docker and run inside container).
-3. Verify table in Postgres:
-
-   ```sql
-   SELECT * FROM disaster LIMIT 10;
-   ```
-
----
-
-## 9. **Power BI Dashboard**
+## 8. **Power BI Dashboard**
 
 Connect Power BI to PostgreSQL and create visuals:
 
@@ -137,7 +119,7 @@ Connect Power BI to PostgreSQL and create visuals:
 
 ---
 
-## 🔟 **CI/CD with GitHub Actions**
+## 9 **CI/CD with GitHub Actions**
 
 * Workflow file: `.github/workflows/docker-deploy.yml`
 * Automates:
@@ -147,7 +129,7 @@ Connect Power BI to PostgreSQL and create visuals:
 
 ---
 
-## 11. **Project Structure**
+## 10. **Project Structure**
 
 ```plaintext
 disaster_insurance/
