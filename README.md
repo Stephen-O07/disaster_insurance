@@ -1,15 +1,9 @@
-<<<<<<< HEAD
-=======
+## 1. *Disaster Insurance Analytics*
 
->>>>>>> f99e257e97f25e7429fd4de90f283f2ccfe7fe1c
-# *Disaster Insurance Analytics*
+**Disaster Response KPI Dashboard for Insurance Operations**
+Automated Ingestion and Analytics on disaster response data using Dockerized Data Pipelines, PostgreSQL with Airflow for orchestration.
 
-
-
-## 1. **Project Title & Description**
-
-**Disaster Insurance Analytics – Disaster Response KPI Dashboard**
-An end-to-end ETL pipeline and analytics solution that ingests FEMA disaster data, loads it into PostgreSQL, and enables interactive dashboards (Power BI) for insurance claim insights.
+An end-to-end ETL pipeline and analytics solution that ingests FEMA disaster data, loads it into PostgreSQL, using Airflow for orchestration and enables interactive dashboards (Power BI) for insurance claim insights.
 
 ---
 
